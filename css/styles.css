@@ -1,3 +1,5 @@
+/********************* TAG SELECTORS***********************/
+
 body {
     background-color: #F9E4D4;
 
@@ -11,11 +13,28 @@ hr {
 
 }
 
-img{
+img {
+    background-color: #D67D3E;
     height: 20%;
     width: 20%;
 }
 
+img :hover{
+    background-color: #D67D3E;
+    height: 25%;
+    width: 25%;
+}
+
 h1, h2, h3{
+    color: #470D21;
+}
+
+/********************* CLASS SELECTORS***********************/
+.pfp{
+    background-color: #9C0F48;
+}
+
+/********************* ID SELECTORS***********************/
+#heading{
     color: #470D21;
 }
