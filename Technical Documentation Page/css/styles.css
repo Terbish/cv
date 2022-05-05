@@ -1,0 +1,26 @@
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+/* -------- Class --------- */
+.intro-article{
+    position: fixed;
+    left: 300px;
+}
+
+/* -------- ID ------------ */
+#navbar{
+    position: fixed;
+    min-width: 250px;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    width: 250px;
+    background-color: beige;
+    line-height: 2;
+    border-right: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 100%;
+}

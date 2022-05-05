@@ -1,0 +1,45 @@
+body{
+    background-color: #F6E7D8 !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border-width: 6px !important;
+    border-style: none none dotted none !important;
+    width: 50%;
+    color: #3A3845 !important;
+    margin: 100px auto;
+}
+.navbar-nav{
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.header-img{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+    margin: 10px;
+}
+
+#features{
+    text-align: center;
+}
+p{
+  text-align: center;
+}
+
+.video-container{
+  display: flex;
+  justify-content: center;
+}
+
+#features{
+  margin: 20px;
+}
