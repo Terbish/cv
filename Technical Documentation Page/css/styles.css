@@ -1,21 +1,43 @@
-ul{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+code{
+    background-color: #f0f0f0;
+}
+
+hr{
+    color: beige;
+}
+/* -------- Class --------- */
+/* .main-section{
+    margin-left: 300px;
+    margin-bottom: 5%;
+} */
+
+.navbar-list{
     padding-left: 0px;
     list-style: none;
 }
 
-/* -------- Class --------- */
-.intro-article{
-    position: fixed;
-    left: 300px;
-}
+/* .kupobot-header-break{
+    border-style: dotted;
+    border-width: none none 50px none;
+} */
 
 /* -------- ID ------------ */
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
 #navbar{
     position: fixed;
     min-width: 250px;
     top: 0;
     left: 0;
-    padding-left: 15px;
     width: 250px;
     background-color: beige;
     line-height: 2;
@@ -23,4 +45,73 @@ ul{
     border-color: black;
     border-width: 2px;
     height: 100%;
+}
+
+#navbar-header{
+    padding-left: 10px;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
+    }
+
+    #navbar {
+        background-color: beige;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+
+    code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+    }
 }
